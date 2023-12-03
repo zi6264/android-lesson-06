@@ -39,12 +39,8 @@ public class BaseWebController {
     // 이 메서드의 엔드포인트를 /server-error로 설정합니다.
     @RequestMapping("/server-error")
     public ModelAndView onErrorTest() {
-        // 에러 페이지로 리다이렉트합니다.
-        return new ModelAndView("error.html");
-    }
-
-
-}
+        @@ -48,3 +39,4 @@ public ModelAndView onErrorTest() {
 
 
 
+        }

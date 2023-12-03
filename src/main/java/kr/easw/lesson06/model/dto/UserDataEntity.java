@@ -7,9 +7,12 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+import lombok.Setter;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
+@Setter
+@Getter
 public class UserDataEntity {
     @Id
     @GeneratedValue
@@ -24,4 +27,5 @@ public class UserDataEntity {
     @Getter
     private boolean isAdmin;
 
+}
 }
